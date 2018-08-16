@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/goodsList/goodsLsit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "精品好货",
+    "navigationBarTextStyle": "black"
+  }
+}

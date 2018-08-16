@@ -1,0 +1,12 @@
+<!--pages/goodsList/goodsLsit.wxml-->
+<view class='container' wx:for="{{routers}}" wx:key="name">
+        <view class='container-cell'>
+              <view class='goodsIcon'>
+              <image class='goodsImage' src='{{item.icon}}'></image>
+              </view>
+              <text class='goodsTitle'>{{item.name}}</text>
+              <text class='goodsIntegral'>{{item.integral}}</text>
+              <text class='goodsDetail'>{{item.exchange}}</text>
+              <button class='goodsBtn'>马上兑</button>
+        </view>
+</view>

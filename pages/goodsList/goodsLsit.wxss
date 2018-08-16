@@ -1,0 +1,68 @@
+/* pages/goodsList/goodsLsit.wxss */
+.container{
+  position: relative;
+  margin: auto;
+  background-color:rgb(247,249,251);
+  padding: 71rpx 0;
+  width: 100%;
+ height: 100%;
+}
+.container-cell{
+  position: absolute; 
+  margin: 0;
+  top: 0rpx;
+  width: 100%;
+  height: 140rpx;
+  background-color:white
+}
+.goodsIcon{
+  position: relative;
+  top: 35rpx;
+  left: 35rpx;
+  width: 90rpx;
+  height: 70rpx;
+}
+.goodsImage{
+  width: 90rpx;
+  height: 70rpx;
+ 
+}
+.goodsTitle{
+  position: absolute;
+  margin: auto; 
+  top: 15rpx;
+  left: 160rpx;
+  letter-spacing: 5rpx;
+  color: black;
+  font-size: 30rpx;
+}
+.goodsIntegral{
+  position: absolute;
+  margin: auto;
+  top: 60rpx;
+  left: 160rpx;
+  color: orange;
+  font-size: 25rpx;
+  letter-spacing: 2rpx;
+}
+.goodsDetail{
+  position: absolute;
+  margin: auto;
+  left: 160rpx;
+  bottom: 15rpx;
+  color: gray;
+  font-size: 25rpx;
+  letter-spacing: 2rpx;
+}
+.goodsBtn{
+  position: absolute;
+  margin: auto;
+  right: 30rpx;
+  top: 40rpx;
+  width: 130rpx;
+  height: 60rpx;
+  border: solid 1rpx blue;
+  color: blue;
+  font-size: 25rpx;
+  text-align: center;
+}
